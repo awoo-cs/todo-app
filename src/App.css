@@ -1,0 +1,37 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --background-color: #333333;
+  --text-color: #ffffff;
+}
+
+.container {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card {
+  background-color: var(--background-color);
+  border-color: var(--text-color);
+}
+
+.card-header {
+  background-color: var(--background-color);
+  border-bottom-color: var(--text-color);
+}
+
+.card-body {
+  background-color: var(--background-color);
+}
+
+.btn {
+  transition: background-color 0.3s, color 0.3s;
+}
